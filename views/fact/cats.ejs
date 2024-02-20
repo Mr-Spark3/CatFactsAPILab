@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Fact</title>
+    <link href="/stylesheets/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Cat Fact</h1>
-    <p><%= fact %></p>
-    <a href="/cats/fact">Get another cat fact!</a>
+    <h1 class="jumbotron">Cat Fact</h1>
+    <div class='cat-fact-container'>
+        <p class ='catfact'><%= fact %></p>
+    </div>
+<div class="btn2-container">
+    <a href="/cats/fact"><button class="btn2">Get another cat fact!</button></a>
+</div>
+
+    
 </body>
 </html>
